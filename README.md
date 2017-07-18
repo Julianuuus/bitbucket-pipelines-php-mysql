@@ -11,14 +11,15 @@ Docker image at [smartapps/bitbucket-pipelines-php-mysql](https://hub.docker.com
 
 ## Packages installed
 
- - `php-apcu`, `php-bcmath`, `php-cli`, `php-curl`, `php-gd`, `php-geoip`, `php-gettext`, `php-imagick`, `php-intl`, `php-json`, `php-mbstring`, `php-mcrypt`, `php-memcached`, `php-mysql`, `php-sqlite3`, `php-xdebug`, `php-xml`, `php-xmlrpc`, `php-zip`, `memcached`, `imagemagick`, `openssh-client`, `curl`, `gettext`, `zip`, `git`, `subversion`
+ - `php-apcu`, `php7.0-bcmath`, `php7.0-cli`, `php-7.0curl`, `php-7.0gd`, `php-geoip`, `php-gettext`, `php-imagick`, `php7.0-intl`, `php7.0-json`, `php7.0-mbstring`, `php7.0-mcrypt`, `php7.0-memcached`, `php7.0-mysql`, `php7.0-sqlite3`, `php-xdebug`, `php7.0-xml`, `php7.0-xmlrpc`, `php7.0-zip`, `php7.0-common`, `php7.0-opcache`, `php7.0-readline`, `memcached`, `imagemagick`, `openssh-client`, `curl`, `gettext`, `zip`, `git`, `subversion`
  - [Perl](https://www.perl.org/) 5.24
  - [Python](https://www.python.org/) 2.7 & 3.5
  - [MySQL](https://www.mysql.com/) 5.6 (user `root:root`)
  - [PHP](http://www.php.net/) 7.0
  - [Ruby](https://www.ruby-lang.org/) 2.3
  - [Node.js](https://nodejs.org/) 6.x LTS
- - Latest [Composer](https://getcomposer.org/), [Gulp](http://gulpjs.com/), [Webpack](https://webpack.github.io/), [Mocha](https://mochajs.org/), [Grunt](http://gruntjs.com/), [PHPUnit](https://phpunit.de/), [Codeception](https://codeception.com/), [Yarn](https://yarnpkg.com/)
+ - [PHPUnit](https://phpunit.de/) 6.2
+ - Latest [Composer](https://getcomposer.org/), [Gulp](http://gulpjs.com/), [Webpack](https://webpack.github.io/), [Mocha](https://mochajs.org/), [Grunt](http://gruntjs.com/), [Codeception](https://codeception.com/), [Yarn](https://yarnpkg.com/)
 
 ## Sample `bitbucket-pipelines.yml`
 
